@@ -89,6 +89,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: white;
+    margin-bottom: 80px;
 }
 
 .info-header {
@@ -125,4 +126,80 @@ a {
     width: 150px;
     text-align: center;
     margin-top: -10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 40px;
+    padding-bottom: 0px;
+    width: 800px;
+}
+
+.quote-by {
+    font-weight: bold;
+    font-size: 25px;
+    width: 720px;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.call {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-call {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 50px 50px;
+    border-radius: 7px;
+    width: 900px;
+    height: 40px;
+}
+
+.inner-call-text-header {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inner-call-text-small {
+    color: white;
+    font-size: 20px;
+}
+
+.inner-call-button button {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 7px;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.footer {
+    display: flex;
+    font-size: 17px;
+    font-weight: 300;
+    justify-content: center;
+    padding: 25px;
+    color: white;
+    background-color: #1F2937;
 }
